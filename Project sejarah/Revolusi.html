@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigasi Revolusi Industri</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+    }
+    .container {
+      position: relative;
+      width: 500px;
+      height: 500px;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease;
+      backdrop-filter: blur(5px);
+    }
+    .box:hover {
+      transform: scale(1.1);
+      background: rgba(255, 255, 255, 0.3);
+    }
+    .center {
+      width: 140px;
+      height: 140px;
+      background: rgba(255, 255, 255, 0.3);
+      color: white;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 16px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(5px);
+    }
+    .top-left { top: 15%; left: 15%; }
+    .top-right { top: 15%; right: 15%; }
+    .bottom-left { bottom: 15%; left: 15%; }
+    .bottom-right { bottom: 15%; right: 15%; }
+
+    .info-button {
+      display: flex;
+      padding: 10px 15px;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      background: #ff9800;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+    }
+    .info-button:hover {
+      background: #e68900;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="1.0.html" class="box top-left">Revolusi 1.0</a>
+    <a href="2.0.html" class="box top-right">Revolusi 2.0</a>
+    <a href="3.0.html" class="box bottom-right">Revolusi 3.0</a>
+    <a href="4.0.html" class="box bottom-left">Revolusi 4.0</a>
+    <div class="center">
+      <a href="https://id.wikipedia.org/wiki/Revolusi_Industri" class="info-button">Revolusi Industri</a>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
